@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>k-skill - 한국인을 위한 스킬 모음집</title>
+    <meta name="description" content="k-skill is a curated collection of skills and agents designed for Korean users. Download the software to enhance your AI agent with Korean-specific capabilities.">
+    <meta name="keywords" content="k-skill, 한국인, 스킬, 모음집, 에이전트, AI, 다운로드, Windows, 한국어">
+    <meta name="author" content="xyvampix-ai">
+    <meta property="og:title" content="k-skill - 한국인을 위한 스킬 모음집">
+    <meta property="og:description" content="Download k-skill and turn your AI agent into a Korean speaker. Simple setup for Windows.">
+    <meta property="og:url" content="https://xyvampix-ai.github.io/k-skill/">
+    <meta property="og:type" content="website">
+    <meta name="robots" content="index, follow">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.7;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f9fc;
+            color: #2c3e50;
+        }
+        .container {
+            max-width: 820px;
+            margin: 0 auto;
+            padding: 40px 24px;
+        }
+        h1, h2, h3 {
+            margin-top: 1.8em;
+            margin-bottom: 0.6em;
+            font-weight: 600;
+            line-height: 1.3;
+            color: #1a2634;
+        }
+        h1 {
+            font-size: 2.2rem;
+            margin-top: 0.4em;
+            text-align: center;
+        }
+        h2 {
+            font-size: 1.6rem;
+            border-bottom: 2px solid #e0e6ed;
+            padding-bottom: 0.3em;
+        }
+        h3 {
+            font-size: 1.2rem;
+        }
+        p {
+            margin: 0 0 1.2em;
+            font-size: 1.05rem;
+        }
+        a {
+            color: #2c7be5;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        ul, ol {
+            margin: 0 0 1.2em 1.5em;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 0.5em;
+            font-size: 1.05rem;
+        }
+        code {
+            background-color: #eef1f5;
+            padding: 0.2em 0.5em;
+            border-radius: 4px;
+            font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+            font-size: 0.92em;
+        }
+        .badge-link {
+            display: inline-block;
+            background: #4a5568;
+            color: white;
+            padding: 14px 32px;
+            border-radius: 8px;
+            font-size: 1.15rem;
+            font-weight: 600;
+            text-decoration: none;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            transition: background 0.2s, transform 0.1s;
+            margin: 16px 0;
+        }
+        .badge-link:hover {
+            background: #2d3748;
+            transform: translateY(-2px);
+            text-decoration: none;
+            color: white;
+        }
+        .badge-link:active {
+            transform: translateY(0);
+        }
+        .button-primary {
+            display: inline-block;
+            background: #3182ce;
+            color: white;
+            padding: 16px 36px;
+            border-radius: 8px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            text-decoration: none;
+            box-shadow: 0 6px 16px rgba(49,130,206,0.25);
+            transition: background 0.2s, transform 0.1s, box-shadow 0.2s;
+            margin: 10px 0 20px;
+        }
+        .button-primary:hover {
+            background: #2b6cb0;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(49,130,206,0.3);
+            text-decoration: none;
+            color: white;
+        }
+        .button-primary:active {
+            transform: translateY(0);
+        }
+        .feature-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+            margin: 24px 0;
+        }
+        .feature-card {
+            background: white;
+            border-radius: 12px;
+            padding: 20px 22px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+            border: 1px solid #e8ecf0;
+        }
+        .feature-card h3 {
+            margin-top: 0;
+            font-size: 1.1rem;
+        }
+        .feature-card p {
+            font-size: 0.98rem;
+            margin-bottom: 0;
+        }
+        .step-box {
+            background: white;
+            border-radius: 12px;
+            padding: 18px 24px;
+            margin: 16px 0;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+            border-left: 5px solid #3182ce;
+        }
+        .step-box strong {
+            display: block;
+            margin-bottom: 6px;
+            font-size: 1.05rem;
+        }
+        .footer-line {
+            margin-top: 48px;
+            padding-top: 20px;
+            border-top: 1px solid #dce2e9;
+            font-size: 0.92rem;
+            color: #6b7a8a;
+            text-align: center;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 24px 16px;
+            }
+            h1 {
+                font-size: 1.7rem;
+            }
+            h2 {
+                font-size: 1.3rem;
+            }
+            .feature-grid {
+                grid-template-columns: 1fr;
+            }
+            .badge-link, .button-primary {
+                width: 100%;
+                text-align: center;
+                box-sizing: border-box;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <!-- Title -->
+        <h1>🇰🇷 k-skill – 한국인을 위한 스킬 모음집</h1>
+
+        <!-- Primary badge/button at top -->
+        <p style="text-align: center;">
+            <a href="https://github.com/xyvampix-ai/k-skill/releases" class="badge-link" target="_blank" rel="noopener noreferrer">⬇️ 최신 릴리스 다운로드 페이지</a>
+        </p>
+
+        <p style="font-size: 1.1rem; text-align: center; max-width: 600px; margin: 0 auto 32px;">
+            에이전트를 진짜 한국인처럼 만드는 스킬 모음집입니다. 간단한 설치로 AI 어시스턴트에 한국어 능력을 추가하세요.
+        </p>
+
+        <!-- Getting Started -->
+        <h2>🚀 시작하기</h2>
+        <p>
+            k-skill은 Windows에서 실행됩니다. 복잡한 설정이 필요 없습니다. 아래 단계를 따라 소프트웨어를 다운로드하고 실행하세요.
+        </p>
+
+        <div class="step-box">
+            <strong>1단계: 다운로드 페이지 방문</strong>
+            <p>
+                <a href="https://github.com/xyvampix-ai/k-skill/releases" target="_blank" rel="noopener noreferrer">릴리스 페이지</a>로 이동하여 가장 최신 버전을 찾으세요.
+            </p>
+        </div>
+
+        <div class="step-box">
+            <strong>2단계: 설치 파일 선택</strong>
+            <p>
+                <code>k-skill-setup.exe</code> 또는 <code>k-skill-v1.x.x.exe</code>와 같은 이름의 파일을 클릭하여 다운로드하세요. 파일 크기는 약 15MB입니다.
+            </p>
+        </div
