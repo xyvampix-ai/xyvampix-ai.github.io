@@ -1,1 +1,10 @@
+main:
+  - title: "About"
+    url: /
+  - title: "Research"
+    url: /publications/
+  - title: "Projects"
+    url: /portfolio/
+  - title: "Teaching"
+    url: /teaching/
 
