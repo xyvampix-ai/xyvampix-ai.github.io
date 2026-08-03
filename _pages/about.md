@@ -5,7 +5,7 @@ excerpt: "About me"
 author_profile: true
 ---
 
-Hi, I'm **Md Rufsan Jani Shanto**, a Software Engineering graduate from **Daffodil International University (DIU)**, specializing in **Data Science** (CGPA: **3.85/4.00**). As an aspiring researcher and lecturer, my expertise spans across Web Development, Machine Learning, AI, Business and Data Analytics. 
+Hi, I'm **Md Rufsan Jani Shanto**, a Software Engineering graduate from **Daffodil International University (DIU)**, specializing in **Data Science** (CGPA: **3.85/4.00**). As an aspiring researcher and lecturer, my expertise spans across Web Development, Machine Learning, AI, and Data Analytics. 
 
 I graduated with a solid technical foundation and a proven academic track record, including **GPA 5.00** in both HSC and SSC. My goal is to bridge the gap between intelligent data-driven insights and modern web systems.
 
@@ -20,9 +20,9 @@ I graduated with a solid technical foundation and a proven academic track record
 # 🏆 Rewards & Recognition
 Here are some of my notable achievements and rewards during my academic journey:
 
-* **Academic Excellence Recognition**
-  * Received recognition for outstanding academic performance and project presentations at DIU.
-  * ![Award Showcase](/images/research_certificate.jpeg)
+* **Certificate of Recognition for Scholarly Publication (2025)**
+  * Awarded by the **Division of Research (DoR), Daffodil International University (DIU)** for outstanding research publication in reputed indexed journals.
+  * ![Research Certificate](/images/research_certificate.jpeg)
 
 # 📜 Certifications
 Apart from my university degree, I have constantly upgraded my skills through specialized training:
@@ -30,4 +30,3 @@ Apart from my university degree, I have constantly upgraded my skills through sp
 * **Professional Training on Data Science & Machine Learning**
   * Developed deep knowledge in data wrangling, exploratory data analysis, and predictive modeling.
   * ![Certificate Document](/images/cert1.jpg)
-
