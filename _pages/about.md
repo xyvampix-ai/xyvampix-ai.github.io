@@ -22,7 +22,7 @@ Here are some of my notable achievements and rewards during my academic journey:
 
 * **Academic Excellence Recognition**
   * Received recognition for outstanding academic performance and project presentations at DIU.
-  * ![Award Showcase](/images/research_certificate.jpg)
+  * ![Award Showcase](/images/research_certificate.jpeg)
 
 # 📜 Certifications
 Apart from my university degree, I have constantly upgraded my skills through specialized training:
