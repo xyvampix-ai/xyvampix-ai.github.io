@@ -22,7 +22,7 @@ Here are some of my notable achievements and rewards during my academic journey:
 
 * **Certificate of Recognition for Scholarly Publication (2025)**
   * Awarded by the **Division of Research (DoR), Daffodil International University (DIU)** for outstanding research publication in reputed indexed journals.
-  * ![Research Certificate](/images/research_certificate%20.jpeg)
+   ![Research Certificate](/images/research_certificate%20.jpeg)
 
 
 # 📜 Certifications
